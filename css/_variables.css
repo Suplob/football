@@ -9,6 +9,11 @@
 
 /* Utilities */
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 h1 {
   font-style: normal;
   font-weight: 700;
@@ -57,4 +62,13 @@ button {
   color: white;
   font-weight: 500;
   border: 0;
+  cursor: pointer;
+}
+i {
+  margin-left: 5px;
+}
+
+button:hover i {
+  transition: margin-left 300ms ease;
+  margin-left: 15px;
 }
