@@ -1,8 +1,89 @@
-/* Variables Import */
-@import "_variables.css";
-
 /* Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/* Utilities */
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialised;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Utilities */
+hr {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: #0a0826;
+}
+h2 {
+  color: #0a0826;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #0a0826;
+}
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6c6c6c;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+i {
+  color: white;
+}
+
+button {
+  background-color: #e02c6d;
+  outline: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 500;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button i {
+  margin-left: 5px;
+}
+
+button:hover i {
+  transition: 300ms;
+  margin-left: 15px;
+}
+
 
 /* Container */
 main {
