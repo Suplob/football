@@ -322,24 +322,23 @@ footer {
   .pricing h3 {
     font-size: 18px;
   }
-
-  .cards {
-    align-items: center;
-  }
-
-  .pricing .cards:nth-child(1),
-  :nth-child(3) {
-    padding-bottom: 100px;
-  }
   .card {
     margin: 0 auto;
     width: 100%;
+    margin-bottom: 10px;
   }
   .card button {
     padding-bottom: 30px;
   }
   .card:nth-child(2) {
     width: 100%;
+  }
+  .card:nth-child(2) button{
+    padding: .7rem 0;
+  }
+  
+  .card p{
+    padding: 0;
   }
 
   .news-letter {
