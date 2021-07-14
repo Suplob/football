@@ -310,7 +310,7 @@ footer {
   }
 
   .hero img {
-    width: 160%;
+    width: 400px;
     margin: 0 auto;
   }
   .players {
@@ -370,8 +370,8 @@ footer {
     margin-bottom: 50px;
   }
 
-  .hero .img {
-    width: 200%;
+  .hero img {
+    width: 400px;
   }
   .players {
     grid-template-columns: 1fr 1fr;
@@ -385,5 +385,5 @@ footer {
   }
   .card:nth-child(2){
     height: 400px;
-  width: 310px;
+    width: 310px;
   }
