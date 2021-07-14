@@ -7,11 +7,17 @@
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Utilities */
 hr {
-  height: 2px;
-  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 h1 {
@@ -63,12 +69,13 @@ button {
   font-weight: 500;
   border: 0;
   cursor: pointer;
+  transition: all 0.3s;
 }
-i {
+button i {
   margin-left: 5px;
 }
 
 button:hover i {
-  transition: margin-left 300ms ease;
+  transition: 300ms;
   margin-left: 15px;
 }
